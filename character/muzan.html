@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kibutsuji Muzan</title>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- <img class="background" src="../gambar-karakter/background.jpg" alt="Background" /> -->
+    <video class="background" src="../video/muzan.webm" autoplay loop muted></video>
+
+    <audio autoplay>
+      <source src="../audio/muzan.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navigasi fixed-top" style="background-color: transparent">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../gambar/Demon Ward.png" alt="Bootstrap" width="150" height="auto" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../home.html#chronicle">Chronicle</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-danger" href="character.html#hero">Character</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../home.html#article">Article</a>
+            </li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #fe0000; outline: none; border: none">
+            <i class="bi bi-person-fill"></i>
+          </a>
+
+          <ul class="dropdown-menu" style="background-color: #fe0000">
+            <li><a class="dropdown-item text-light" href="../user/edit-viewer.html">Edit Account</a></li>
+            <li><a class="dropdown-item text-light" href="../login.html">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Hero -->
+    <section id="hero">
+      <div class="container konten">
+        <div class="row">
+          <div class="col-7 text-start">
+            <p class="nama-char">KIBUTSUJI MUZAN</p>
+            <p class="desc-char">
+              The antagonist in Demon Slayer is one of the most interesting characters in the entire series. Muzan may not appear much in this anime. But, his cold attitude like when he destroyed most of his powerful lieutenants was quite
+              terrifying to see. <br>Muzan's strength seems to be very great. No one really understands how Tanjiro and the other Demon Slayer members have a chance against this powerful creature. But, there's still plenty of time for them to
+              get stronger and give Muzan a good fight.
+            </p>
+            <br />
+            <p class="breath">BREATHING STYLE</p>
+            <span class="badge rounded-pill br-style9">Do Not Use</span>
+          </div>
+          <div class="col-5 justify-content-center text-center">
+            <img src="../gambar-karakter/mz.png" alt="Tanjiro Kamado" width="320px" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Hero -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

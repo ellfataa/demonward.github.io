@@ -1,0 +1,331 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-family: "Poppins";
+  cursor: default;
+  align-items: center;
+  overflow: hidden;
+  display: flex;
+}
+
+/* Hero */
+#hero {
+  margin-top: 6rem;
+  height: auto;
+  width: 100%;
+}
+.judul {
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 600;
+}
+.konten {
+  width: 100%;
+  height: auto;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.imgContainer {
+  width: 2100px;
+  height: auto;
+  margin-top: 4rem;
+  margin-left: 8rem;
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  transition: 0.7s;
+}
+.nama-char {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+  margin: 0 auto;
+}
+.view {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  width: auto;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: white;
+}
+.view:hover {
+  color: #fe0000;
+}
+
+#slide_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgb(5, 214, 137, 0.5), rgb(0, 0, 0));
+}
+.img-1 {
+  position: relative;
+  height: 300px;
+  width: 200px;
+  margin-top: 0;
+  filter: saturate(10%);
+  transition: 0.6s;
+  border-radius: 20px;
+}
+#slide_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgb(227, 5, 157, 0.5), rgb(0, 0, 0));
+}
+.img-2 {
+  position: relative;
+  height: 300px;
+  width: 200px;
+  margin-top: 0;
+  filter: saturate(10%);
+  transition: 0.6s;
+  border-radius: 20px;
+}
+#slide_3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgba(255, 238, 0, 0.91), rgb(0, 0, 0));
+}
+.img-3 {
+  position: relative;
+  height: 300px;
+  width: 200px;
+  margin-top: 0;
+  filter: saturate(10%);
+  transition: 0.6s;
+  border-radius: 20px;
+}
+#slide_4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgb(253, 158, 4, 0.5), rgb(0, 0, 0));
+}
+.img-4 {
+  position: relative;
+  height: 300px;
+  width: 200px;
+  margin-top: 0;
+  filter: saturate(10%);
+  transition: 0.6s;
+  border-radius: 20px;
+}
+#slide_5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgb(23, 0, 195, 0.5), rgb(0, 0, 0));
+}
+.img-5 {
+  position: relative;
+  height: 300px;
+  width: 205px;
+  margin-top: 0;
+  filter: saturate(10%);
+  transition: 0.6s;
+  border-radius: 20px;
+}
+#slide_6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgb(255, 0, 0, 0.5), rgb(0, 0, 0));
+}
+.img-6 {
+  position: relative;
+  height: 300px;
+  width: 200px;
+  margin-top: 0;
+  filter: saturate(10%);
+  transition: 0.6s;
+  border-radius: 20px;
+}
+#slide_7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgb(192, 192, 192, 0.5), rgb(0, 0, 0));
+}
+.img-7 {
+  position: relative;
+  height: 300px;
+  width: 210px;
+  margin-top: 0;
+  filter: saturate(10%);
+  transition: 0.6s;
+  border-radius: 20px;
+}
+#slide_8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgb(0, 255, 234, 0.5), rgb(0, 0, 0));
+}
+.img-8 {
+  position: relative;
+  height: 300px;
+  width: 220px;
+  margin-top: 0;
+  filter: saturate(10%);
+  transition: 0.6s;
+  border-radius: 20px;
+}
+#slide_9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgb(136, 0, 209, 0.5), rgb(0, 0, 0));
+}
+.img-9 {
+  position: relative;
+  height: 300px;
+  width: 220px;
+  margin-right: 12%;
+  margin-top: 0;
+  filter: saturate(10%);
+  transition: 0.6s;
+  border-radius: 20px;
+}
+
+.button {
+  position: absolute;
+  height: 360px;
+  width: 200px;
+  transition: 0.6s;
+  border-radius: 20px;
+}
+#slider1:target ~ .imgContainer #img1,
+#slider1:target ~ .imgContainer #button1 {
+  width: 250px;
+  height: 350px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+#slider2:target ~ .imgContainer #img2,
+#slider2:target ~ .imgContainer #button2 {
+  width: 250px;
+  height: 350px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+#slider3:target ~ .imgContainer #img3,
+#slider3:target ~ .imgContainer #button3 {
+  width: 250px;
+  height: 350px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+#slider4:target ~ .imgContainer #img4,
+#slider4:target ~ .imgContainer #button4 {
+  width: 250px;
+  height: 350px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+#slider5:target ~ .imgContainer #img5,
+#slider5:target ~ .imgContainer #button5 {
+  width: 250px;
+  height: 350px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+#slider6:target ~ .imgContainer #img6,
+#slider6:target ~ .imgContainer #button6 {
+  width: 250px;
+  height: 350px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+#slider7:target ~ .imgContainer #img7,
+#slider7:target ~ .imgContainer #button7 {
+  width: 250px;
+  height: 350px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+#slider8:target ~ .imgContainer #img8,
+#slider8:target ~ .imgContainer #button8 {
+  width: 260px;
+  height: 350px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+#slider9:target ~ .imgContainer #img9,
+#slider9:target ~ .imgContainer #button9 {
+  width: 250px;
+  height: 350px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+
+#slider1:target ~ .imgContainer {
+  left: 0%;
+}
+#slider2:target ~ .imgContainer {
+  left: -10%;
+}
+#slider3:target ~ .imgContainer {
+  left: -20%;
+}
+#slider4:target ~ .imgContainer {
+  left: -30%;
+}
+#slider5:target ~ .imgContainer {
+  left: -40%;
+}
+#slider6:target ~ .imgContainer {
+  left: -50%;
+}
+#slider7:target ~ .imgContainer {
+  left: -60%;
+}
+#slider8:target ~ .imgContainer {
+  left: -70%;
+}
+#slider9:target ~ .imgContainer {
+  left: -80%;
+}
+/* Akhir Hero */

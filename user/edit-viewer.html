@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Edit Account</title>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="viewer.css" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Form Registration -->
+    <div class="container konten">
+      <div class="container justify-content-center gambar">
+        <center><img class="background" src="../gambar/demonslayer.png" alt="DemonWard" /></center>
+      </div>
+
+      <form action="../home.html" method="post">
+        <h1 class="jd-form">Edit Account</h1>
+        <hr />
+        <br />
+
+        <label for="nama" class="lb-form">Name</label><br />
+        <input type="text" name="nama" class="input-form" id="nama" /><br />
+
+        <label for="username" class="lb-form">Username</label><br />
+        <input type="text" name="username" class="input-form" id="username" /><br />
+
+        <label for="email" class="lb-form">Email</label><br />
+        <input type="email" name="email" class="input-form" id="email" /><br />
+
+        <label for="password" class="lb-form">Password</label><br />
+        <input type="password" name="password" class="input-form" id="password" /><br /><br />
+
+        <center>
+            <a href="../home.html" class="tombol" style="margin-right: 10px;">Cancel</a>
+            <a href="../home.html" type="submit" class="btn btn-primary tombol">Submit</a>
+        </center>
+      </form>
+    </div>
+    <!-- Akhir Form Registration -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

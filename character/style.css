@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-family: "Poppins";
+  cursor: default;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  opacity: 0.4;
+  z-index: -1;
+  margin: 0 auto;
+}
+
+/* Hero */
+#hero {
+  margin: auto;
+  padding-top: 8%;
+  height: auto;
+  width: 100%;
+}
+.nama-char {
+  font-family: "Im Fell English SC";
+  font-size: 50px;
+  font-weight: 600;
+  width: auto;
+  margin: 0 auto;
+  letter-spacing: 10px;
+}
+.desc-char {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 300;
+  width: auto;
+  margin: 0 auto;
+  text-align: justify;
+}
+.breath {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  width: auto;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: justify;
+  letter-spacing: 2px;
+}
+.br-style1 {
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  background-image: linear-gradient(rgb(0, 72, 255), rgb(110, 182, 255));
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+.br-style2 {
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  background-image: linear-gradient(red, rgb(255, 136, 0));
+  padding: 10px 20px;
+}
+.br-style3 {
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  background-image: linear-gradient(rgb(255, 0, 187), rgb(124, 2, 190));
+  padding: 10px 20px;
+}
+.br-style4 {
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  background-image: linear-gradient(rgb(255, 255, 0), rgb(216, 98, 1));
+  padding: 10px 20px;
+}
+.br-style5 {
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  background-image: linear-gradient(rgb(255, 183, 0), rgb(119, 54, 1));
+  padding: 10px 20px;
+}
+.br-style6 {
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  background-image: linear-gradient(rgb(255, 0, 0), rgb(124, 0, 87));
+  padding: 10px 20px;
+}
+.br-style7 {
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  background-image: linear-gradient(rgb(84, 84, 84), rgb(30, 30, 30));
+  padding: 10px 20px;
+}
+.br-style8 {
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  background-image: linear-gradient(rgb(0, 227, 163), rgb(69, 70, 70));
+  padding: 10px 20px;
+}
+.br-style9 {
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  background-image: linear-gradient(rgb(139, 3, 212), rgb(78, 0, 57));
+  padding: 10px 20px;
+}
+/* Akhir Hero */

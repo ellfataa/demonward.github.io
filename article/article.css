@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-family: "Poppins";
+  cursor: default;
+}
+
+/* Article */
+#article {
+  margin-top: 6rem;
+  width: 100%;
+}
+.heading-article {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.jd-article {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  margin: auto;
+}
+.tgl-article {
+  font-size: 11px;
+  font-weight: 300;
+  color: #fe0000;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.isi-article {
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+  margin: auto;
+  text-align: justify;
+}
+/* Akhir Article */

@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-family: "Poppins";
+  cursor: default;
+}
+
+/* Hero */
+#hero {
+  margin-top: 6rem;
+  height: auto;
+  width: 100%;
+}
+.gb-hero {
+  width: 250px;
+  border-radius: 15px;
+  margin: auto;
+}
+.kol-judul {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  margin: auto;
+  text-decoration: none;
+}
+.kol-judul:hover {
+  color: #fe0000;
+  transition: 0.3s;
+}
+.kol-isi {
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 300;
+  color: #fe0000;
+}
+/* Akhir Hero */
+
+/* FOOTER */
+footer {
+  width: 100%;
+  height: auto;
+  padding: 10px 0px;
+  text-align: center;
+}
+footer p {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  margin: auto;
+}
+/* AKHIR FOOTER */
