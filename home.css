@@ -10,7 +10,7 @@ body {
 
 /* HERO */
 #hero {
-  height: 80vh;
+  height: 90vh;
   width: 100%;
   background-image: linear-gradient(transparent, black);
 }
